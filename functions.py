@@ -23,3 +23,11 @@ except ValueError:
   print("Thats not a number!")
 else:
   print("Hi" * count)
+
+# Finding odd or even
+
+def is_even(num):
+  if num % 2 == 0:
+    return True
+  else:
+    return False
